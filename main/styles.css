@@ -1,0 +1,104 @@
+body{
+  background-color: #A2B5BB;
+}
+
+#player{
+
+  padding-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Nunito', sans-serif;
+  color: #2C3639;
+}
+
+#main-heading{
+  padding-top: 100px;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Nunito', sans-serif;
+  color: #2C3639;
+}
+#game-heading{
+  padding-top: 60px;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Nunito', sans-serif;
+  color: #2C3639;
+}
+h4{
+  padding-top: 10px;
+  font-family: 'Nunito', sans-serif;
+  color: #2C3639;
+}
+.box-play{
+  display: block;
+  max-width: 350px;
+  padding: 15px;
+  background: white;
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+
+button.btn-play{
+  width: 50%;
+  margin: 10px 25%;
+  color: #fff;
+}
+
+.form-input{
+  width: 100%;
+
+  display: block;
+  padding: 0.5rem;
+  box-sizing:border-box;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  outline: none;
+  background: #eeeeee;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.form-input:focus{
+  border-color: #A2B5BB;
+  background: #ffffff;
+  border-width: medium;
+}
+
+.form-input-group{
+  margin-bottom: 1rem;
+}
+
+
+
+
+td{
+  width: 130px;
+  height: 130px;
+  background: #fff;
+  font-size: 80px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: red;
+  text-shadow: 0 0 5px red;
+  border: 5px;
+  border-width: medium;
+  border-style: solid;
+  border-color: #A2B5BB;
+
+}
+.changecolor{
+  color: green;
+  text-shadow: 0 0 5px green;
+}
+table{
+  margin: 50px auto;
+
+}
+
+
+::placeholder{
+  color: grey;
+  opacity: 1;
+}
